@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.common {
+  background: rgb(188, 187, 187);
+  margin: 20px;
+  border-radius: 2px;
+}
+
+/* Profile section  */
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 280px;
+  width: auto;
+  border-radius: 5px;
+}
+.userimg {
+  height: 160px;
+  width: 160px;
+}
+.userName {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+.userTitle {
+  font-size: medium;
+  color: rgb(19, 18, 18);
+  margin-top: 4px;
+  font-weight: 500;
+}
+
+/* Biography  */
+.aboutUser {
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  color: rgb(38, 37, 37);
+  padding: 8px;
+  margin-left: 4px;
+}
+.userBio {
+  font-size: medium;
+  font-weight: 500;
+  margin-left: 32px;
+  display: inline;
+}
+
+/* projects */
+.project {
+  height: 220px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+.projectList {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+  margin-top: 8px;
+}
+.userProject {
+  border: 2px solid black;
+  height: 120px;
+  width: 120px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: azure;
+}
+
+/* contact */
+.footer {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+span {
+  font-weight: 500;
+  color: #fd1109;
+}
