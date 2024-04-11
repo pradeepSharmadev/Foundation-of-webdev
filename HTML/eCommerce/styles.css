@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* Navigation */
+nav {
+  height: 64px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(194, 104, 55);
+}
+.logo {
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 40%;
+  list-style: none;
+  font-size: medium;
+  font-weight: 400;
+}
+li:hover {
+  color: rgb(83, 253, 219);
+  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
+}
+/* product */
+header {
+  background-color: aliceblue;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 80%;
+}
+
+.item {
+  height: 280px;
+  width: 200px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 24px;
+}
+.item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+.img {
+  height: 160px;
+  width: 160px;
+}
+.title {
+  font-size: 20px;
+  font-weight: 500;
+}
+.price {
+  color: #007bff;
+}
+button {
+  height: 32px;
+  width: 75px;
+  background-color: rgb(81, 90, 255);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  margin-bottom: 16px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #0056b3;
+}
+footer {
+  height: 60px;
+  background-color: #55a7ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copyright {
+  font-size: 14px;
+  font-weight: 600;
+}
