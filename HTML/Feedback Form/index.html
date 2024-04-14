@@ -7,72 +7,40 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <form class="container">
-      <h1>Feedback Form</h1>
-      <div class="input">
-        <div class="data">
-          <label for="Name">Name:</label>
-          <input type="text" name="name" required />
-        </div>
-        <div class="data">
-          <label for="E-mail">E-mail:</label>
-          <input type="email" name="email" required />
-        </div>
-        <div class="data">
-          <label for="age">Age:</label>
-          <input type="number" name="age" min="1" max="150" required />
-        </div>
-        <div class="data">
-          <label for="Gender">Gender:</label> <input type="radio" required />
-          <label for="male">Male</label> <input type="radio" required />
-          <label for="female">Female</label> <input type="radio" required />
-          <label for="other">Other</label>
-        </div>
-        <div class="data">
-          <label for="rate">Rates:</label>
-          <input type="range" name="rate" min="0" max="5" maxlength="5" />
-        </div>
-
-        <div class="data">
-          <label for="Nature">Nature of Feedback:</label>
-          <select id="feedback-type" name="feedback-type">
-            <option value="positive">Positive</option>
-            <option value="negative">Negative</option>
-            <option value="suggestion">Suggestion</option>
-          </select>
-        </div>
-        <fieldset>
-          <legend>Services Used:</legend>
-          <input
-            type="checkbox"
-            id="service1"
-            name="services"
-            value="service1"
-          />
-          <label for="service1">Service 1</label><br />
-          <input
-            type="checkbox"
-            id="service2"
-            name="services"
-            value="service2"
-          />
-          <label for="service2">Service 2</label><br />
-          <input
-            type="checkbox"
-            id="service3"
-            name="services"
-            value="service3"
-          />
-          <label for="service3">Service 3</label>
-        </fieldset>
-        <div class="data">
-          <label for="Name">Name:</label>
-          <input type="text" name="name" required />
-        </div>
-        <label for="comments">Additional Comments:</label>
-        <textarea id="comments" name="comments" rows="4"></textarea>
-        <button type="submit">Submit Feedback</button>
-      </div>
-    </form>
+    <div class="container">
+      <div class="formTitle">Feedback-Form</div>
+      <form action="" class="feedback">
+        <label for="name">Name:</label><br />
+        <input
+          class="input"
+          type="text"
+          placeholder="Enter Your Full Name"
+        /><br />
+        <label for="age">Age:</label><br />
+        <input class="input" type="text" placeholder="Enter Your Age" /><br />
+        <label for="email">Email:</label><br />
+        <input
+          class="input"
+          type="text"
+          placeholder="Enter Your Email ID"
+        /><br />
+        <label for="nature">Type Of Feedback</label><br />
+        <select name="nature" id="nature">
+          <option value="posi">Positive</option>
+          <option value="nega">Negative</option>
+          <option value="neut">Neutral</option></select
+        ><br />
+        <label for="usedService">Used Services:</label><br />
+        <input type="checkbox" />
+        <label class="option" for="first">Marketing</label><br />
+        <input type="checkbox" />
+        <label class="option" for="sec">Sales</label><br />
+        <input type="checkbox" />
+        <label class="option" for="thir">Digitalism</label><br />
+        <label for="more">Additional comments</label><br />
+        <textarea id="comments" name="comments" rows="4"></textarea><br />
+        <button type="button">Submit Feedback</button>
+      </form>
+    </div>
   </body>
 </html>
