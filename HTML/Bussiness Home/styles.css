@@ -8,6 +8,7 @@
 /* navbar */
 .navbar {
   position: fixed;
+  /* position: sticky;  its take own space after that content appear*/
   /* top: 0;
   left: 0;
   right: 0;
